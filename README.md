@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Recipe book shows Recipes of different food cuisines.
+# User can see Preparation Time, Cook Time, Ingredients and Instructions for cooking the food.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technologies Used - React, Typescript, Tailwind CSS, Shad CN Components.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app is deployed.
+# Project Link:  https://recipebookme.netlify.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+// Commands for running the app: Make sure you have installed node.js.
 
-- Configure the top-level `parserOptions` property like this:
+# Step 1: Open terminal and navigate to desired directory
+cd ~/projects
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# Step 2: Clone the repository
+git clone https://github.com/vickyjha256/RecipeBook.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Step 3: Navigate to the cloned repository
+cd react-project
+
+# Step 4: Install dependencies
+npm install
+
+# Step 5: Run the development server
+npm run dev
+
+
+
